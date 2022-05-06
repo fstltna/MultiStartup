@@ -55,7 +55,7 @@ while (-1)
 			close($OUTF);
 			chdir $MINETESTDIR;
 			print "Starting screen process\n";
-			system("$SCREENCMD -fa -S Minetest -d -U -m $MINETESTDIR/bin/multicraftserver");
+			system("$SCREENCMD -fa -S Multicraft -d -U -m $MINETESTDIR/bin/multicraftserver");
 		}
 	}
 	# Sleep for 1 minute before checking again
