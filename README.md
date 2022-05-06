@@ -1,5 +1,5 @@
-# Multicraft Startup Scripts (2.2.2)
-Startup scripts for the Multicraft sandbox software - uses the "screen" command to manage session. This also restarts the Multicraft process if it crashes.
+# Multicraft Startup Scripts (1.0)
+Startup scripts for the Multicraft sandbox software - uses the "screen" command to manage sessions. This also restarts the Multicraft process if it crashes.
 
 Official support sites: [Official Github Repo](https://github.com/fstltna/MinetestStartup) - [Official Forum](https://minecity.online/index.php/forum/startup-scripts)  - [Official Download Area](https://minecity.online/index.php/downloads/category/5-server-tools)
 ![Minetest Sample Screen](https://MineCity.online/minetest_demo.png) 
@@ -21,9 +21,7 @@ When you want to view the Multicraft console, just enter "**screen -r**" in your
 
 To disconnect from the Multicraft console just press **CTRL-A CTRL-D**. This will leave it running and you can reconnect to it again.
 
-I have only tested this on a Ubuntu 16.04 server...
-
-If you want to turn off the server respawning type "**touch /home/mtowner/multicraft/nostart**". To reenable it type "**rm /home/mtowner/multicraft/nostart**".
+If you want to turn off the server respawning type "**touch /home/mtowner/MultiCraft2/nostart**". To reenable it type "**rm /home/mtowner/MultiCraft2/nostart**".
 
 ---
 Note: If you don't already have the "screen" tool installed you will need to install it by "**sudo apt-get install screen**".
