@@ -1,7 +1,7 @@
 # Multicraft Startup Scripts (1.0)
 Startup scripts for the Multicraft sandbox software - uses the "screen" command to manage sessions. This also restarts the Multicraft process if it crashes.
 
-Official support sites: [Official Github Repo](https://github.com/fstltna/MinetestStartup) - [Official Forum](https://minecity.online/index.php/forum/startup-scripts)  - [Official Download Area](https://minecity.online/index.php/downloads/category/5-server-tools)
+Official support sites: [Official Github Repo](https://github.com/fstltna/MultiStartup) - [Official Forum](https://minecity.online/index.php/forum/startup-scripts)  - [Official Download Area](https://minecity.online/index.php/downloads/category/5-server-tools)
 ![Minetest Sample Screen](https://MineCity.online/minetest_demo.png) 
 
 ---
