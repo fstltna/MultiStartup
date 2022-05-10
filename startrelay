@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/mtowner/minetest
+cd /home/mtowner/MultiCraft2
 nohup python3.6 server.py &
 exit 0

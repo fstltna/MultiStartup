@@ -29,7 +29,7 @@ $ENV{'TERM'} = "xterm-256color";
 
 my $running=`ps ax|grep multicraftserver|grep -v grep`;
 
-# check if Minetest process is running
+# check if Multicraft process is running
 if ($running ne "")
 {
 	print ("Startupscript already running...\n");
@@ -39,18 +39,18 @@ if ($running ne "")
 while (-1)
 {
 	chdir $MINETESTDIR;
-	# check if Minetest process is running
+	# check if Multicraft process is running
 	$running=`ps ax|grep multicraftserver|grep -v grep`;
 	if ($running eq "")
 	{
-		print "Minetest not running\n";
+		print "Multicraft not running\n";
 		# See if they want the server started
 		if (! -f "$MINETESTDIR/nostart")
 		{
 			# The Log Entry
 			my $datestring = localtime();
-			my $TIME="Minetest Down, Restarting: $datestring";
-			open(OUTF, ">>$MINETESTDIR/MinetestScreen.log") || die "Unable to open $MINETESTDIR/MinetestScreen.log for appending";
+			my $TIME="Multicraft Down, Restarting: $datestring";
+			open(OUTF, ">>$MINETESTDIR/MulticraftScreen.log") || die "Unable to open $MINETESTDIR/MulticraftScreen.log for appending";
 			print (OUTF "$TIME\n");
 			close($OUTF);
 			chdir $MINETESTDIR;
