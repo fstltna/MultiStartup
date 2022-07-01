@@ -14,12 +14,12 @@ These start up the Multicraft server at boot time with a "screen" process.
 5. Run the relay setup:
 	pip install aiohttp
 	cd /home/mtowner
-        unzip MinetestStartup/MyRelay.zip
-        cd /home/mtowner/minetest/mods/discordmt
+        unzip MultiStartup/MyRelay.zip
+        cd /home/mtowner/MultiCraft2/mods/discordmt
         vi relay.conf # Set the discord bot info where needed
 	Activate the bot with: https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot
         Run startrelay
-        Restart the minetest server, and enable the discordmt
+        Restart the multicraft server, and enable the discordmt
 
 When you want to view the Multicraft console, just enter "**screen -r**" in your shell.
 
