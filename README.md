@@ -13,6 +13,7 @@ These start up the Multicraft server at boot time with a "screen" process.
 4. Put **@reboot /home/mtowner/bin/startrelay** into your crontab
 5. Run the relay setup:
 	pip install aiohttp
+	pip install discord.py
 	cd /home/mtowner
         unzip MultiStartup/MyRelay.zip
         cd /home/mtowner/MultiCraft2/mods/discordmt
