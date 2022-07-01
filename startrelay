@@ -1,4 +1,0 @@
-#!/bin/bash
-cd /home/mtowner/MultiCraft2
-nohup python3.6 server.py &
-exit 0
